@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sajuca.Innovecs.Api\Sajuca.Innovecs.Api.csproj" />
     <ProjectReference Include="..\Sajuca.Innovecs.Application\Sajuca.Innovecs.Application.csproj" />
-    <ProjectReference Include="..\sajucaApp\Sajuca.Innovecs.Api.csproj" />
   </ItemGroup>
 
 </Project>
