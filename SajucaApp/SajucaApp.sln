@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sajuca.Innovecs.Api", "..\..\..\Backups\sajucaApp\Sajuca.Innovecs.Api.csproj", "{65CDE023-518F-4228-A3C7-945F15246462}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sajuca.Innovecs.Application", "..\..\..\Backups\Sajuca.Innovecs.Application\Sajuca.Innovecs.Application.csproj", "{872CE328-92BB-487D-A750-490D8AE8844D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sajuca.Innovecs.Client", "..\..\..\Backups\Sajuca.Innovecs.Client\Sajuca.Innovecs.Client.csproj", "{7D9E22C7-8C37-4DD9-8A5A-6DAA3C68F929}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sajuca.Innovecs.Api.Test", "..\..\..\Backups\Sajuca.Innovecs.Api.Test\Sajuca.Innovecs.Api.Test.csproj", "{F7A0142A-7BFE-4167-869A-DEE893E3887B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65CDE023-518F-4228-A3C7-945F15246462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CDE023-518F-4228-A3C7-945F15246462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CDE023-518F-4228-A3C7-945F15246462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CDE023-518F-4228-A3C7-945F15246462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872CE328-92BB-487D-A750-490D8AE8844D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872CE328-92BB-487D-A750-490D8AE8844D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872CE328-92BB-487D-A750-490D8AE8844D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872CE328-92BB-487D-A750-490D8AE8844D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9E22C7-8C37-4DD9-8A5A-6DAA3C68F929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9E22C7-8C37-4DD9-8A5A-6DAA3C68F929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9E22C7-8C37-4DD9-8A5A-6DAA3C68F929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9E22C7-8C37-4DD9-8A5A-6DAA3C68F929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A0142A-7BFE-4167-869A-DEE893E3887B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A0142A-7BFE-4167-869A-DEE893E3887B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A0142A-7BFE-4167-869A-DEE893E3887B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A0142A-7BFE-4167-869A-DEE893E3887B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
