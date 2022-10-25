@@ -2,20 +2,15 @@
 {
     public class UserService : IUserService
     {
-        public bool ValidateCredentials(string username, string password, string suscription)
+        public bool ValidateCredentials(string username, string password)
         {
-            bool result = false;
-            switch (suscription)
+           bool result = false;
+
+            if (username.Equals("admin1") && password.Equals("Pa$$WoRd1") ||
+               username.Equals("admin2") && password.Equals("Pa$$WoRd2") ||
+               username.Equals("admin3") && password.Equals("Pa$$WoRd3"))
             {
-                case "firstApi":
-                    result = username.Equals("admin1") && password.Equals("Pa$$WoRd1");
-                    break;
-                case "secondApi":
-                    result = username.Equals("admin2") && password.Equals("Pa$$WoRd2");
-                    break;
-                case "thirdApi":
-                    result = username.Equals("admin3") && password.Equals("Pa$$WoRd3");
-                    break;
+                result = true;
             }
 
             return result;
