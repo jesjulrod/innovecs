@@ -2,6 +2,6 @@
 {
     public interface IUserService
     {
-        bool ValidateCredentials(string username, string password, string srcApi);
+        bool ValidateCredentials(string username, string password);
     }
 }
