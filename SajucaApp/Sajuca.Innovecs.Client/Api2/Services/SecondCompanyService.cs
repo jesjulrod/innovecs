@@ -24,7 +24,7 @@ namespace Sajuca.Innovecs.Client.Api1.Services
             var content = new StringContent(serializeObject, Encoding.UTF8, "application/json");
 
             using var httpClient = _httpClientFactory.CreateClient();
-            var authToken = Encoding.ASCII.GetBytes($"admin2:Pa$$WoRd2:secondApi");
+            var authToken = Encoding.ASCII.GetBytes($"admin2:Pa$$WoRd2");
             httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(authToken));
 
             HttpResponseMessage responseMessage = await httpClient.PostAsync("https://localhost:44346/second/quote", content);

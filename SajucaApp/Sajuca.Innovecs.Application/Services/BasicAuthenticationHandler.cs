@@ -35,10 +35,9 @@ namespace Sajuca.Innovecs.Application.Services
                 var credentials = Encoding.UTF8.GetString(Convert.FromBase64String(authHeader.Parameter)).Split(':');
                 
                 username = credentials.FirstOrDefault();
-                var password = credentials?.ElementAt(1);
-                var sourceApi = credentials.LastOrDefault();
+                var password = credentials?.LastOrDefault();                
 
-                if (!_userService.ValidateCredentials(username, password, sourceApi)) 
+                if (!_userService.ValidateCredentials(username, password)) 
                 {
                     throw new ArgumentException("Invalid credentials");
                 }                
